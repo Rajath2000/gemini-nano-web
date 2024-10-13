@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+
+index.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore coverage directory
+coverage/
+
+# Optional: Ignore temporary files
+*.tmp
+*.temp
