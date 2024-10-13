@@ -129,7 +129,7 @@ This project is licensed under the [ISC License](LICENSE).
 
 ISC License
 
-Copyright (c) [year] [your name or organization]
+Copyright (c) [2024] [Rajath M R]
 
 Permission to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, is hereby granted, free of charge, subject to the following conditions:
 
