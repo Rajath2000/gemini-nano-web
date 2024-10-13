@@ -33,7 +33,19 @@ Let's start, It's simple to use:
 ```js
 import GeminiNano from "gemini-nano-prompt";
 
-let geminiNano = new GeminiNano();
+let geminiNano = new GeminiNano(); // by default topK : 3 and temperature : 0.8
+
+let response = await geminiNano.prompt("Hi What is Gemini Nano");
+
+console.log("This is a Gemini response :", response);
+```
+
+for Fine tuning
+
+```js
+import GeminiNano from "gemini-nano-prompt";
+
+let geminiNano = new GeminiNano( { topK : 8 , temperature : 0. 9 } );
 
 let response = await geminiNano.prompt("Hi What is Gemini Nano");
 
