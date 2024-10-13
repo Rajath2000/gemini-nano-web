@@ -1,0 +1,11 @@
+{
+  "name": "gemini-nano-web",
+  "version": "1.0.0",
+  "description": "A lightweight wrapper for the Gemini Nano package, designed to simplify interactions and streamline the integration process. This wrapper enhances usability by providing a more intuitive interface for utilizing Gemini Nano's features.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Rajath M R",
+  "license": "ISC"
+}
