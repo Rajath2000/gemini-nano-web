@@ -1,8 +1,8 @@
-# Gemini Nano Wrapper - A client-side built-in Model for web browser [Chrome]
+# Gemini Nano Wrapper - A client-side built-in AI Model for the web browser [Chrome]
 
 A lightweight wrapper for the Gemini Nano package, designed to simplify interactions and streamline the integration process. This wrapper enhances usability by providing a more intuitive interface for utilizing Gemini Nano's features.
 
-This Wrapper built on top of browser's in-built Gemini nano which is window.ai just plug it and start using prompts.
+This Wrapper is built on top of the browser's in-built Gemini nano which is window.ai just plug it and start using prompts.
 
 ## Table of Contents
 - [Installation](#installation)
