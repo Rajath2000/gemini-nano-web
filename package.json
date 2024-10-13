@@ -1,6 +1,6 @@
 {
   "name": "gemini-nano-prompt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight wrapper for the Gemini Nano package, designed to simplify interactions and streamline the integration process. This wrapper enhances usability by providing a more intuitive interface for utilizing Gemini Nano's features.",
   "main": "index.js",
   "types": "index.d.ts",
