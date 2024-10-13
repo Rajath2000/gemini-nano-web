@@ -37,7 +37,7 @@ let geminiNano = new GeminiNano();
 
 let response = await geminiNano.prompt("Hi What is Gemini Nano");
 
-console.log("This is a GPT response :", response);
+console.log("This is a Gemini response :", response);
 ```
 ## API
 
