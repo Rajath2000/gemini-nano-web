@@ -1,12 +1,16 @@
 {
   "name": "gemini-nano-prompt",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A lightweight wrapper for the Gemini Nano package, designed to simplify interactions and streamline the integration process. This wrapper enhances usability by providing a more intuitive interface for utilizing Gemini Nano's features.",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rajath2000/gemini-nano-web"
   },
   "author": "Rajath M R",
   "license": "ISC",
