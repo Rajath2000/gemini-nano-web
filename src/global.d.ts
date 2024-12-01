@@ -1,5 +1,5 @@
 interface AI {
-    assistant: {
+    languageModel: {
         capabilities: () => Promise<any>;
         create: (capabilities: Record<string, any> | undefined) => Promise<any>
         prompt: (query: string) => Promise<any>;

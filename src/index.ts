@@ -17,7 +17,7 @@ class GeminiNano {
 
     private async checkStatus(): Promise<boolean> {
         try {
-            let capabilities = await window?.ai?.assistant?.capabilities();
+            let capabilities = await window?.ai?.languageModel?.capabilities();
             capabilities = capabilities ? capabilities : await window?.ai?.summarizer?.capabilities();
             return capabilities?.available?.toUpperCase() === "READILY";
         } catch (err) {
@@ -57,7 +57,7 @@ class GeminiNano {
             if (isEnvSupported) {
                 switch (sessionType) {
                     case "assistant":
-                        this.geminiSession = await window.ai.assistant.create(this.customCapabilities)
+                        this.geminiSession = await window.ai.languageModel.create(this.customCapabilities)
                         console.log(this.geminiSession);
                         break;
                     case "summarizer":
