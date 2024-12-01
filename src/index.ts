@@ -100,10 +100,6 @@ class GeminiNano {
 
                 console.log("R:", result);
 
-                setTimeout(() => {
-                    this.closeSession();
-                }, 1000);
-
                 return { response: result };
             } catch (err) {
                 console.error(`Error during ${sessionType} operation:`, err);
